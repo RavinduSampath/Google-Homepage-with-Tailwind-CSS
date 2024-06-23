@@ -8,14 +8,18 @@
   </head>
   <body class="flex flex-col h-screen">
     <!-- nav bar -->
-    <ul class="flex items-center justify-end gap-5 pt-5 pr-5 text-sm">
+    <ul class="flex items-center justify-end gap-5 pt-3 pr-5 text-sm">
       <li>
-        <a href="#">Gmail</a>
+        <a href="#" class="hover:underline">Gmail</a>
       </li>
-      <li><a href="#">Images</a></li>
-      <li>
-        <a href="#"
-          ><svg class="w-8 h-8" focusable="false" viewBox="0 0 24 24">
+      <li><a href="#" class="hover:underline">Images</a></li>
+      <li class="p-2 rounded-full hover:bg-gray-100">
+        <a href="#">
+          <svg
+            class="text-gray-500 fill-current w-7 h-7"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
             <path
               d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
             ></path>
@@ -26,23 +30,25 @@
         </a>
       </li>
       <li>
-        <a href="#" class="bg-[#2196F3] px-8 py-2 text-white rounded-md"
+        <a
+          href="#"
+          class="bg-[#2196F3] px-8 py-2 text-white rounded-md hover:bg-[#1b66c9] hover:shadow"
           >Sign In</a
         >
       </li>
     </ul>
     <!-- main section -->
-    <div class="flex flex-col items-center gap-6 pt-20 grow">
+    <div class="flex flex-col items-center gap-6 pt-20 text-sm grow">
       <img
         class="w-[272px] h-[92px]"
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt=""
       />
       <div
-        class="flex w-full max-w-screen-sm gap-3 px-2 py-2 border rounded-full"
+        class="flex w-full max-w-screen-sm gap-3 px-3 py-2 border rounded-full hover:shadow-ld"
       >
         <svg
-          class="w-6 h-6"
+          class="w-6 h-6 text-gray-500 fill-current"
           focusable="false"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -98,8 +104,16 @@
         </svg>
       </div>
       <div class="flex gap-4">
-        <a href="#" class="px-4 py-2 bg-gray-100">Google Search</a>
-        <a href="#" class="px-4 py-2 bg-gray-100">I'm Feeling Lucky</a>
+        <a
+          href="#"
+          class="px-4 py-2 bg-gray-100 border border-gray-100 rounded-sm hover:border-gray-300"
+          >Google Search</a
+        >
+        <a
+          href="#"
+          class="px-4 py-2 bg-gray-100 border border-gray-100 rounded-sm hover:border-gray-300"
+          >I'm Feeling Lucky</a
+        >
       </div>
       <div>
         Google offered in:<a href="#" class="mx-3 text-blue-700 hover:underline"
@@ -107,16 +121,16 @@
         ><a href="#" class="text-blue-700 hover:underline">தமிழ்</a>
       </div>
     </div>
-    <footer class="flex flex-col bg-gray-200">
-      <div class="px-4 py-4">Sri lanka</div>
+    <footer class="flex flex-col text-sm text-gray-500 bg-gray-200">
+      <div class="px-4 py-4 pl-7">Sri lanka</div>
       <div class="flex justify-between border-t border-gray-300">
-        <ul class="flex gap-3 px-4 py-4">
+        <ul class="flex gap-8 px-4 py-4 pl-7">
           <li>About</li>
           <li>Advertizing</li>
           <li>Business</li>
           <li>How Search Works</li>
         </ul>
-        <ul class="flex gap-3 px-4 py-4">
+        <ul class="flex gap-8 px-4 py-4 pl-7">
           <li>Privacy</li>
           <li>Terms</li>
           <li>Settings</li>
